@@ -1,7 +1,7 @@
 const http = require('http')
 const server = http.createServer((req,res) =>{
     console.log('New connection')
-    res.end("Hello cloud run 1")
+    res.end("Hello cloud run 2")
 })
 
 
